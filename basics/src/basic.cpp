@@ -39,4 +39,7 @@ int main(){
 // void → which does not returns anything 
 // parameterised
 // non parameterised
+
+// g++ src/basic.cpp -o out/basic
+// ./out/patterns
 }
