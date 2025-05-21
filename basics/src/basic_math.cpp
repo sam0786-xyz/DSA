@@ -75,18 +75,18 @@ int main(){
     // cout << ((ct == 2) ? "Yes, it is a prime number" : "No, it is not"); 
      
     //GCD OR HCF
-    int N1, N2, min,gcd;
-    cout << "Give a 1st number: " << "\n";
-    cin >> N1;
-    cout << "Give a 2nd number: " << "\n";
-    cin >> N2;
+    // int N1, N2, min,gcd;
+    // cout << "Give a 1st number: " << "\n";
+    // cin >> N1;
+    // cout << "Give a 2nd number: " << "\n";
+    // cin >> N2;
 
-    min = (N1 < N2) ? N1 : N2;
-    for (int i=1; i<=min; i++){
-        if (N1%i==0 && N2%i==0){
-            gcd = i;
-        }
-    }
-    cout << "GCD is " << gcd;
-    return 0;
+    // min = (N1 < N2) ? N1 : N2;
+    // for (int i=1; i<=min; i++){
+    //     if (N1%i==0 && N2%i==0){
+    //         gcd = i;
+    //     }
+    // }
+    // cout << "GCD is " << gcd;
+    // return 0;
 }
