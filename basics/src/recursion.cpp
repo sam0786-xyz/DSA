@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 // Print Names N times using recursion
@@ -82,16 +83,10 @@ int main(){
     // s3(n,0);
     // cout << s5(n);
     // cout << s6(n);
-    vector<int> ar(n);
+    vector<string> ar;
 
-    for (int i = 0; i < n; i++) {
-        cin >> ar[i];
-    }
+    ar.push_back("Hello");
 
-    reverse_array(ar);
 
-    for (int i = 0; i < n; i++) {
-        cout << ar[i] << " ";
-    }
-    cout << endl;
+
 }
