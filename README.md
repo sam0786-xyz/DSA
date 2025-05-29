@@ -1,4 +1,4 @@
-🧠 #DSA Practice – Striver’s A2Z DSA Sheet
+🧠 # DSA Practice – Striver’s A2Z DSA Sheet
 
 This repository contains my C++ implementations of Data Structures and Algorithms problems based on Striver’s A2Z DSA Sheet. It documents my personal progress and practice throughout my DSA learning journey.
 
