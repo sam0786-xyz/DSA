@@ -1,4 +1,4 @@
-# 🧠 DSA Practice
+# 🧠 DSA Practice (Striver's A2Z DSA Sheet)
 
 This repository contains C++ solutions to DSA (Data Structures and Algorithms) problems that I practice throughout my DSA learning journey.
 
@@ -28,12 +28,10 @@ DSA/
   - `Cmd + /` (Mac)
 - Compile with a C++ compiler:
   ```bash
-  g++ src/filename.cpp -o output
-  ./output
-
+  g++ src/filename.cpp -o out/file_name
+  ./out/file_name
 
 ⸻
 
 📌 Note
-
 This is a personal practice repo. More topics will be added as I progress through my DSA learning journey.
