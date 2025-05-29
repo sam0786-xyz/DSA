@@ -34,7 +34,7 @@ Use the following command to compile:
     ./out/filename
 ```
 
-	4.	Tip:
+4.	Tip:
 To quickly comment/uncomment lines in your editor:
 	•	Ctrl + / on Windows/Linux
 	•	Cmd + / on Mac
