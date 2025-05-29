@@ -29,7 +29,11 @@ DSA/
 - Compile with a C++ compiler:
   ```bash
   g++ src/filename.cpp -o out/file_name
+  ```
+  ```bash
   ./out/file_name
+  ```
+  
 
 ⸻
 
