@@ -1,41 +1,48 @@
-# 🧠 DSA Practice (Striver's A2Z DSA Sheet)
+🧠 DSA Practice – Striver’s A2Z DSA Sheet
 
-This repository contains C++ solutions to DSA (Data Structures and Algorithms) problems that I practice throughout my DSA learning journey.
+This repository contains my C++ implementations of Data Structures and Algorithms problems based on Striver’s A2Z DSA Sheet. It documents my personal progress and practice throughout my DSA learning journey.
 
----
+⸻
 
-## 📁 Folder Structure
+📂 Folder Structure
 
 DSA/
-├── src/                    # All C++ source files
-│   ├── basic.cpp
-│   ├── basic_math.cpp
-│   ├── hashing.cpp
-│   ├── patterns.cpp
-│   ├── recursion.cpp
-│   └── vectors.cpp
-├── Patterns_1.png          # Pattern reference image
+├── basics/
+│   └── src/                  # C++ source files for basic concepts
+│       ├── basic.cpp
+│       ├── basic_math.cpp
+│       ├── hashing.cpp
+│       ├── patterns.cpp
+│       ├── recursion.cpp
+│       └── vectors.cpp
+├── Patterns_1.png            # Reference images for pattern problems
 ├── Patterns_2.png
 └── README.md
 
----
+⸻
 
-## 🛠 How to Use
+🛠️ How to Use
+	1.	Locate files
+	•	All C++ programs are inside the basics/src/ folder.
+	2.	Compile code
+Use the following command to compile:
+```bash
+    g++ basics/src/filename.cpp -o out/filename
+```
+	3.	Run the compiled code
+```bash
+    ./out/filename
+```
 
-- All programs are in the `src/` folder.
-- Uncomment code using:
-  - `Ctrl + /` (Windows/Linux)
-  - `Cmd + /` (Mac)
-- Compile with a C++ compiler:
-  ```bash
-  g++ src/filename.cpp -o out/file_name
-  ```
-  ```bash
-  ./out/file_name
-  ```
-  
+	4.	Tip:
+To quickly comment/uncomment lines in your editor:
+	•	Ctrl + / on Windows/Linux
+	•	Cmd + / on Mac
 
 ⸻
 
 📌 Note
-This is a personal practice repo. More topics will be added as I progress through my DSA learning journey.
+
+This is a personal practice repository and will be updated regularly as I progress through the DSA sheet. Stay tuned for more concepts and problem solutions!
+
+⸻
