@@ -1,29 +1,36 @@
 #include <iostream>
-#include<vector>
+#include <vector>
 using namespace std;
 
-int removeDuplicates(vector<int>& nums){
-    int prev = 0; 
-    if(nums.empty()) return 0;
-    for (int forw = 1; forw < nums.size(); forw++) {
+int removeDuplicates(vector<int>& nums) {
+    if (nums.empty()) return 0;
+
+    int prev = 0;
+    for (int forw = 1; forw < nums.size(); ++forw) {
         if (nums[forw] != nums[prev]) {
-            prev++;
+            ++prev;
             nums[prev] = nums[forw];
         }
     }
     return prev + 1;
-
 }
 
-int main(){
+int main() {
     int n;
     cin >> n;
-    vector <int> nums(n);
-    for (int i = 0; i < n; i++) {
+    vector<int> nums(n);
+    for (int i = 0; i < n; ++i) {
         cin >> nums[i];
     }
-    int result;
-    result = removeDuplicates(nums);
-    cout << result << endl;
 
+    int newLength = removeDuplicates(nums);
+    cout << "New length: " << newLength << endl;
+
+    cout << "Modified array: ";
+    for (int i = 0; i < newLength; ++i) {
+        cout << nums[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
 }
