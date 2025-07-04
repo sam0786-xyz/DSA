@@ -4,30 +4,13 @@ This repository contains my C++ implementations of Data Structures and Algorithm
 
 ⸻
 
-📂 Folder Structure
-
-DSA/
-├── basics/
-│   └── src/                  # C++ source files for basic concepts
-│       ├── basic.cpp
-│       ├── basic_math.cpp
-│       ├── hashing.cpp
-│       ├── patterns.cpp
-│       ├── recursion.cpp
-│       └── vectors.cpp
-├── Patterns_1.png            # Reference images for pattern problems
-├── Patterns_2.png
-└── README.md
-
-⸻
-
 🛠️ How to Use
 	1.	Locate files
 	•	All C++ programs are inside the basics/src/ folder.
 	2.	Compile code
 Use the following command to compile:
 ```bash
-    g++ basics/src/filename.cpp -o out/filename
+    g++ src/filename.cpp -o out/filename
 ```
 3.	Run the compiled code
 ```bash
