@@ -9,12 +9,22 @@ This repository contains my C++ implementations of Data Structures and Algorithm
 	•	All C++ programs are inside the basics/src/ folder.
 	2.	Compile code
 Use the following command to compile:
+Considering you are in DSA\basics
+For Mac
 ```bash
     g++ src/filename.cpp -o out/filename
 ```
 3.	Run the compiled code
 ```bash
     ./out/filename
+```
+For Windows
+```bash
+    g++ src/filename.cpp -o out/filename.exe
+```
+3.	Run the compiled code
+```bash
+    ./out/filename.exe
 ```
 
 4.	Tip:
