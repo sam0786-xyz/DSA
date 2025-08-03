@@ -14,7 +14,7 @@ For Mac
 ```bash
     g++ src/filename.cpp -o out/filename
 ```
-3.	Run the compiled code
+3.1.	Run the compiled code
 ```bash
     ./out/filename
 ```
@@ -22,7 +22,7 @@ For Windows
 ```bash
     g++ src/filename.cpp -o out/filename.exe
 ```
-3.	Run the compiled code
+3.2.	Run the compiled code
 ```bash
     ./out/filename.exe
 ```
