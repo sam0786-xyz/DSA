@@ -20,7 +20,6 @@ int binary_search(vector <int> &arr, int n, int key){
         else{
             low = mid + 1;
         }
-        mid = (low+high)/2;
     }
     return 0;
 }
